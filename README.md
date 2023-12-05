@@ -43,7 +43,7 @@ Google Cloud Run에 Dockerized FastAPI를 배포하기 위해 Dockerfile을 생�
 
 ### 1. Beautifulsoup and Selenium
 
-**1-1. 사용자 입력에 따른 기본 상품 리스트**
+**사용자 입력에 따른 기본 상품 리스트**
 * get_ft_list.py
 <br>filtering prompt로부터 사용자 입력에 따라 검색된 페이지 url에서 상품 리스트 추출
 
