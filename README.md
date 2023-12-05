@@ -1,5 +1,19 @@
 
 
+## API Document
+### 1. 상품 검색
+<img width="1623" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/131886c5-8e2f-43bc-8a8d-a8512207305b">
+(설명 추가)
+
+
+### 2. 상품 설명
+<img width="1618" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/9e4fb8ba-8efe-418e-a39f-bf236d378f80">
+(설명 추가)
+
+
+### 3. 질의응답
+<img width="539" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/d7c2f205-3a19-4d37-90ed-751b46446525">
+(설명 추가)
 
 
 ## Cloud Run 배포
