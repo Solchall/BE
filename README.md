@@ -37,11 +37,7 @@ Google Cloud Run에 Dockerized FastAPI를 배포하기 위해 Dockerfile을 생�
 > `새 버전 수정 및 배포`에서 컨테이너의 할당량을 변경할 수 있다. <br>
 >  메모리, CPU, 요청 시간 제한, 실행 환경, 인스턴스 최소/최대 개수 등을 조정하여 성능을 향상시킬 수 있다.
 
-
-
-
-
-
+<br>
 
 ## 👒 Prompt Engineering and LLMs with Langchain
 
