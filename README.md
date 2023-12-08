@@ -96,3 +96,26 @@ Google Cloud Run에 Dockerized FastAPI를 배포하기 위해 Dockerfile을 생�
 
 ### 2. Prompt
 
+**사용자 입력에 따른 기본 상품 리스트**
+* filtering.py
+<br>사용자 입력에 부합하는 검색 결과 url 추출 (카테고리 기반)
+
+**사용자 입력에 따른 매거진 상품 리스트**
+* magazines.py
+<br>좀 더 자유로운 사용자 입력에 부합하는 매거진 검색 결과 url 추출 (에디터 추천 기반)
+
+**리뷰 요약**
+* review_summ.py
+<br>리뷰 데이터를 가져와 사용자에게 요약되어 보여지도록 prompt engineering
+
+**상품 개괄 정보**
+* simple_detail_gpt.py
+<br>상품 개괄 정보를 가져와 사용자에게 요약되어 보여지도록 prompt engineering
+
+**사이즈 추천**
+* size_reco.py
+<br>상품 사이즈 추천 정보를 가져와 사용자에게 요약되어 보여지도록 prompt engineering
+
+**질의응답**
+* ask.py
+<br>해당 상품의 리뷰 데이터를 기반으로 사용자와 자유롭게 질의응답하는 prompt
