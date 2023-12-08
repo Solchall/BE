@@ -3,17 +3,44 @@
 ## API Document
 ### 1. 상품 검색
 <img width="1623" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/131886c5-8e2f-43bc-8a8d-a8512207305b">
-(설명 추가)
 
+- Input
+  - `apikey`: OpenAI API Key
+  - `userNeed`: 사용자가 찾고자 하는 상품 스타일
+    - 예시1) 40,000원 이하 스프라이트 블랙 니트를 찾아줘
+    - 예시2) 4만원대 브라운 맨투맨 추천해줘. 4개월 동안 판매가 많은순으로 정렬해줘
+    - 예시3) 10만원 이하로 베이지 린넨소재 셔츠 찾아줘. 3달내 리뷰순으로 정렬해줘
+    - 예시4) y2k 옷 찾아줘
+    - 예시5) 뉴진스가 입을 것 같은 옷 알려줘
+    - 예시6) 바캉스 갈 때 입을 옷 추천해봐
+- Output
+  - 상품 리스트
+<br>
 
 ### 2. 상품 설명
 <img width="1618" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/9e4fb8ba-8efe-418e-a39f-bf236d378f80">
-(설명 추가)
 
+- Input
+  - `apikey`: OpenAI API Key
+  - `id`: 사용자가 선택한 상품의 ID
+- Output
+  - 상품 개괄설명
+  - 사이즈별 키 / 몸무게
+  - 유용한 리뷰 / 평점 낮은 리뷰 요약
+
+<br>
 
 ### 3. 질의응답
 <img width="539" alt="image" src="https://github.com/Solchall/what2buy-AI/assets/71062967/d7c2f205-3a19-4d37-90ed-751b46446525">
-(설명 추가)
+
+- Input
+  - `apikey`: OpenAI API Key
+  - `user_question`: 상품에 대한 사용자의 질문
+  - `id`: 사용자가 선택한 상품의 ID
+- Output
+  - 사용자 질문에 대한 응답
+
+<br>
 
 
 ## Cloud Run 배포
