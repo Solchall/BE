@@ -42,6 +42,16 @@
 
 <br>
 
+### API 테스트
+
+API 테스트는 [여기서](https://what2buy-o3mazxvlva-du.a.run.app/docs) 해볼 수 있음
+
+- 각 API 경로 선택 > `Try it out` 클릭 > `Request Body`에 파라미터 값 작성 > `Execute` 클릭 후 Response 확인
+
+---
+
+<br>
+
 
 ## Cloud Run 배포
 Google Cloud Run에 Dockerized FastAPI를 배포하기 위해 Dockerfile을 생성해야 한다.
